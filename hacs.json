@@ -1,0 +1,5 @@
+{
+    "name": "Smart Meter Emulator",
+    "domains": ["sensor"],
+    "render_readme": true
+}

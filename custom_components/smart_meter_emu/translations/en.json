@@ -1,0 +1,46 @@
+{
+  "title": "Smart Meter Emulator",
+  "config": {
+    "step": {
+      "user": {
+        "title": "New Smart Meter Emulator",
+        "data": {
+          "name": "Name",
+          "power_entity_id": "Total Power sensor",
+          "p1_entity_id": "Phase 1 Power sensor",
+          "p2_entity_id": "Phase 2 Power sensor",
+          "p3_entity_id": "cc",
+          "type": "Emulator type",
+          "port": "Custom network port",
+          "shift": "Shift total Power value by"
+        }
+      }
+    },
+    "error": {
+      "only_power_entity": "If Total Power sensor is set, no Phase Power sensors are required",
+      "all_phase_entities": "All three Phase Power sensors are required"
+    }
+  },
+  "issues": {
+  },
+  "options": {
+    "step": {
+      "init": {
+        "title": "Smart Meter Emulator",
+        "data": {
+          "power_entity_id": "Total Power sensor",
+          "p1_entity_id": "Phase 1 Power sensor",
+          "p2_entity_id": "Phase 2 Power sensor",
+          "p3_entity_id": "Phase 3 Power sensor",
+          "type": "Emulator type",
+          "port": "Custom network port",
+          "shift": "Shift total Power value by"
+        }
+      }
+    },
+    "error": {
+      "only_power_entity": "If Total Power sensor is set, no Phase Power sensors are required",
+      "all_phase_entities": "All three Phase Power sensors are required"
+    }
+  }
+}
